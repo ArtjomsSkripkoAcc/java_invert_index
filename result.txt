@@ -1,0 +1,88 @@
+GetPostings
+Bennet
+Postings: 1007 1011 1012 1027 1038 1042 1058
+Darcy
+Postings: 1019 1024 1027 1035
+Hurst
+Postings: 1024
+husband
+Postings: 1002 1016 1055
+Lucas
+Postings: 1014
+room
+Postings: 1016 1019 1029 1049
+QueryAnd
+Bennet husband
+Results: empty
+QueryAnd
+Lucas
+Results: 1014
+QueryAnd
+room Darcy Hurst
+Results: empty
+QueryOr
+Bennet husband
+Results: 1002 1007 1011 1012 1016 1027 1038 1042 1055 1058
+QueryOr
+Lucas
+Results: 1014
+QueryOr
+room Darcy Hurst
+Results: 1016 1019 1024 1027 1029 1035 1049
+QueryAnd
+Bennet husband
+Results: empty
+QueryAnd
+Lucas
+Results: 1014
+QueryAnd
+room Darcy Hurst
+Results: empty
+QueryOr
+Bennet husband
+Results: 1002 1007 1011 1012 1016 1027 1038 1042 1055 1058
+QueryOr
+Lucas
+Results: 1014
+QueryOr
+room Darcy Hurst
+Results: 1016 1019 1024 1027 1029 1035 1049
+TF-IDF
+Bennet husband
+Results: 1042 1058 1016 1038 1002 1055 1012 1011 1007 1027
+TF-IDF
+Lucas
+Results: 1014
+TF-IDF
+room Darcy Hurst
+Results: 1024 1035 1049 1016 1024 1019 1019 1029 1027
+Wild card
+eliza*
+Results:
+Postings: 1027 1035 1040
+Postings: 1033
+Wild card
+*even
+Results:
+Postings: 1014
+Wild card
+invi*tion
+Results:
+Postings: 1011
+Wild card
+eliza*
+Results:
+Elizabeth
+Postings: 1027 1035 1040
+Elizabeth,
+Postings: 1033
+Wild card
+*even
+Results:
+seven
+Postings: 1014
+Wild card
+invi*tion
+Results:
+invitation
+Postings: 1011
